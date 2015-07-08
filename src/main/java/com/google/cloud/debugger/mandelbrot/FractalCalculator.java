@@ -3,8 +3,8 @@ package com.google.cloud.debugger.mandelbrot;
 public class FractalCalculator {
   /**
    * 
-   * @param x imaginary part of C
-   * @param y real part of C
+   * @param x real part of C
+   * @param y imaginary part of C
    * @return number of iterations until Zn crosses 2 (capped by the maximum iterations).
    */
   public float computePoint(float x, float y) {
