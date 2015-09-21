@@ -11,3 +11,5 @@
 echo check <application> in appengine-web.xml
 mvc clean install
 appcfg.sh update target/cloud-debugger-demo-v1
+appcfg.sh set_default_version target/cloud-debugger-demo-v1
+echo surf to https://csells-debugger-demo-1074.appspot.com/
