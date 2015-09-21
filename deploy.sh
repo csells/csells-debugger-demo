@@ -9,8 +9,8 @@
 
 # deploy via GAE1
 #export PATH=$PATH:~/appengine-java-sdk-1.9.26/bin/
-echo check <application> in appengine-web.xml
-mvc clean install
-:~/appengine-java-sdk-1.9.26/bin/appcfg.sh update target/cloud-debugger-demo-v1
-:~/appengine-java-sdk-1.9.26/bin/appcfg.sh set_default_version target/cloud-debugger-demo-v1
-echo surf to https://csells-debugger-demo-1074.appspot.com/
+echo "check <application> in appengine-web.xml"
+mvn clean install
+~/appengine-java-sdk-1.9.26/bin/appcfg.sh update target/cloud-debugger-demo-v1
+~/appengine-java-sdk-1.9.26/bin/appcfg.sh set_default_version target/cloud-debugger-demo-v1
+echo "surf to https://csells-debugger-demo-1074.appspot.com/"
